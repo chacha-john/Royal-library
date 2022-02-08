@@ -9,6 +9,8 @@ body{
 }
 
 .sign_up_form{
+    width: 80%;
+    height: 800px;
     margin-left: 500px;
     margin-top: -16%;
     margin-bottom: 500px;   
@@ -17,21 +19,24 @@ body{
     text-align: center;
     background-size: 80%;
     color:white;
+    border-radius: 10px;
 }
 
 .input-box{
-    border-radius: 4px;
-    height: 30px;
-    background-color: #5D78A1;
+    width: 50%;
+    border-radius: 10px;
+    height: 50px;
+    background-color: #E0FFFF;
   
 }
 
 .sign_up_form p{
+    margin-left: 10px;
     color:white;
    
 }
  .signup_btn{
-     background-color: #5D78A1;
+    background-color: #E0FFFF;
      padding: 1%;
      cursor: pointer;
      border-radius: 8px;
