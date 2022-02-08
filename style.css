@@ -1,1 +1,9 @@
 
+.pics{
+    display: flex;
+    
+}
+
+.word{
+    justify-content: center;
+}
