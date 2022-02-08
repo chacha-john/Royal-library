@@ -1,9 +1,23 @@
 
 .pics{
-    display: flex;
-    
+   display: flex;
+}
+.word{
+    margin-left: 400px;
+    font-weight: bold;
+    color: lawngreen;
+    font-size: medium;
+
 }
 
-.word{
-    justify-content: center;
+.word h3{
+    font-family: 'Courier New', Courier, monospace;
 }
+
+
+
+    
+
+
+
+
