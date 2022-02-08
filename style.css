@@ -1,9 +1,10 @@
-*{
+body{
     margin: 0%;
     padding: 0%;
+    background-color: aquamarine;
 }
 
 .sign_up_form{
     width: 100%;
-    background-color: azure;
+    background-color: rgb(95, 199, 199);
 }
