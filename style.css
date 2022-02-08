@@ -3,18 +3,71 @@
    display: flex;
 }
 .word{
-    margin-left: 400px;
+    margin-left: 200px;
     font-weight: bold;
-    color: lawngreen;
+    color: black;
     font-size: medium;
+    
 
 }
 
 .word h3{
-    font-family: 'Courier New', Courier, monospace;
+    
+    font-style: italic;
 }
 
+.whole{
+    background-color: #5D78A1;
+    opacity: 0.8;
+    background-image: url(images/books-5937823_960_720.webp);
+    background-position: left;
+   
+}
+.adm button{
+    border-radius: 10px;
+    height: 10vh;
+    width: 60vh;
+    background-color: #E0FFFF;
+}
 
+.Book button{
+    border-radius: 10px;
+    height: 10vh;
+    width: 60vh;
+    background-color: #E0FFFF;
+
+   
+}
+
+.serial button{
+    border-radius: 10px;
+    height: 10vh;
+    width: 60vh;
+    background-color: #E0FFFF;
+    
+}
+
+.date button{
+    border-radius: 10px;
+    height: 10vh;
+    width: 60vh;
+    background-color: #E0FFFF;
+
+}
+
+.last button{
+    border-radius: 10px;
+    background-color: #5D78A1;
+    margin-top: 90px;
+    height:7vh;
+    width: 30vh;
+    margin-left: 70px;
+    font-weight: bolder;
+    
+}
+.ls{
+    display: flex;
+}
 
     
 
