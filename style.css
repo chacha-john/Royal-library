@@ -1,10 +1,23 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: aquamarine;
+    background-color: #5D78A1;
+    background-size: cover;
+    background-position-x: center;
 }
 
 .sign_up_form{
-    width: 100%;
-    background-color: rgb(95, 199, 199);
+    width: 300px;
+    background-color: #5D78A1;
+    padding:20% ;
+    margin: 8% 0%;
+    text-align: center;
+    margin: 20%;
 }
+
+.sign_up_form p{
+    
+}
+ .signup_btn{
+     background-color:#E0FFFF;
+ }
