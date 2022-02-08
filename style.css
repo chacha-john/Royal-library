@@ -24,6 +24,20 @@
     background-color: #E0FFFF;
 }
 .create_button{
-    margin-left: 35%;
+    margin-left: 41%;
+    margin-top: -170px;
 
+}
+.create_button button{
+    border: 2px solid black;
+}
+#create{
+    color: black;
+    background-color: #E0FFFF;
+    
+    border-radius: 10px;
+    font-weight: bold;
+    font: x-large;
+    width: 30%;
+    height: 70px;
 }
