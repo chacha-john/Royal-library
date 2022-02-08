@@ -50,3 +50,12 @@ footer{
     font-size: medium;
     background-color: #E0FFFF;
 }
+.col-1-1{
+    width: 40%;
+}
+.col-1-2{
+    font-size: x-large;
+    color: white;
+    width: 60%;
+    text-align: left;
+}
