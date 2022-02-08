@@ -1,23 +1,43 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color: #5D78A1;
+    background-color: #E0FFFF;
     background-size: cover;
     background-position-x: center;
+    width: 1010px;
+    height: 796px;
 }
 
 .sign_up_form{
-    width: 300px;
+    margin-left: 500px;
+    margin-top: -16%;
+    margin-bottom: 500px;   
     background-color: #5D78A1;
-    padding:20% ;
-    margin: 8% 0%;
+    padding:2% 5% ;
     text-align: center;
-    margin: 20%;
+    background-size: 80%;
+    color:white;
+}
+
+.input-box{
+    border-radius: 4px;
+    height: 30px;
+    background-color: #5D78A1;
+  
 }
 
 .sign_up_form p{
-    
+    color:white;
+   
 }
  .signup_btn{
-     background-color:#E0FFFF;
+     background-color: #5D78A1;
+     padding: 1%;
+     cursor: pointer;
+     border-radius: 8px;
+     width: 100px;
+ }
+ img{
+ margin-right: 1100px;
+
  }
