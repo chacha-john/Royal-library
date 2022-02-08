@@ -8,22 +8,42 @@ body{
 .heading{
     margin-left: 470px;
     margin-top: -100px;
+    color: white;
 }
 
 #p1{
-   
+   color: white;
 }
 #searchbar{
     margin-left: 15%;
+    height: 30px;
+    width: 400px;
+    background-color:rgb(224,255,255);
+    border: none;
+
+
 }
 .details{
     margin-left:70px;
+    
+}
+#AdmissionNo{
+    height: 40px;
+    width: 400px;
+    background-color:rgb(224,255,255);
+    border: none;
+}
+#BookName{
+    height: 40px;
+    width: 400px;
+     background-color:rgb(224,255,255);
+     border: none;
 }
 #button{
      margin-left:70px;
      border: none;
      color:black;
-     background-color: blue;
+     background-color:#C7E3EB;
      height: 40px;
      width: 300px;
      
