@@ -8,24 +8,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="whole">
-   <div class="pics">
-       <div class ="logo">
-           <img src="images/BOOKS.png" style="height: 20vh; width: 20vh;">
-        </div>
-
-           
- 
+    <div class="whole" style="background-image: url('images/books-5937823_960_720.webp'); filter: contrast(30%); filter: brightness(40%);">
+        <div class="pics">
+            <div class ="logo">
+                <img src="images/BOOKS.png" style="height: 20vh; width: 20vh;">
+            </div>
         
+            <div class="word">
+                <h2>Royal Library </h2> 
+                <p>Opening the door to knowledge </p>
+            </div>
 
-        <div class="word">
-            <h2>Royal Library </h2> 
-            <p>Opening the door to knowledge </p>
         </div>
+        <form name="borrowBooks">
+            <div class="labels">
+                <p>Admission Number *</p>
+                <input type="text" name="adm" id="admNumber" required>
+            </div>
+            <div class="labels">
+                <p>Name of the book *</p>
+                <input type="text" name="bk" id="nameBook" required>
+            </div>
+            <div class="labels">
+                <p>Serial Number *</p>
+                <input type="text" name="serial" id="bookSerial" required>
+            </div>
+            <div class="labels">
+                <p>Date *</p>
+                <input type="date" name="dte" id="dateBorrowed" required>
+            </div>
+            <div class="blue">
+                <input type="submit" value="Submit" id="admNumber">
+            </div>
+        </form>
 
-    </div>
-
-    <div class="adm">
+    <!-- <div class="adm">
         <h3>Admission Number *</h3>
         <button></button>
 
@@ -52,39 +69,9 @@
     </div>
 
     <div class="last">
-        <button>Submit</button>
+        <input type="submit" value="Submit">
 
-    </div>
-</div>
-
-            
-
-         
- 
-            
-
-     
-      
-      
-       
-   
-   
-
-
-       
-       
-  
-
-   
-
-
-   
-</div>
-
-        
-
-
-  
-    
+    </div> -->
+    </div>    
 </body>
 </html>
