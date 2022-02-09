@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Library Management System</title>
 </head>
 <body>
@@ -13,20 +14,25 @@
         <h2>Sign Up Now</h2>
         <form>
             <p> Full Name*</p>
-        <input type="Full name*" class="input-box" placeholder="Enter Full name"> </li><br>
+        <input type="text" class="input-box" placeholder="Enter Full name"> </li><br>
         <p> Username*</p>
-         <input type="Username*" class="input-box" placeholder="Enter Username"> <br>
+         <input type="text" class="input-box" placeholder="Enter Username"> <br>
          <p> Email Address*</p>
-            <input type="Email Address*" class="input-box" placeholder="Enter Email Addresse"> <br>
-          <p>password*</p>
-            <input type="password*" class="input-box" placeholder="Enter password"> <br>
+            <input type="text" class="input-box" placeholder="Enter Email Addresse"> <br>
+          <p>Password*</p>
+          <i class="fas fa-eye-slash"></i>
+            <input type="password" class="input-box" placeholder="Enter password"> <br>
+            <input type="checkbox" onclick="myFunction()">Show Password
             <p>Confirm Password* </p>
-            <input type="Confirm Password*" class="input-box" placeholder="Confirm Password"> <br>
+            <i class="fas fa-eye-slash"></i>
+            <input type="password" class="input-box" placeholder="Confirm Password"> <br>
+            <input type="checkbox" onclick="myFunction()">Show Password
+            <i class="fas fa-eye-slash"></i>
              <p> <span><input type="checkbox"></span> I agree to terms of service  </p>
         </form>
-        <button class="signup_btn">sign up</button>
+        <button class="signup_btn">Sign up</button>
     </div>
  
-        
+   <script>"index.js"</script>     
     </body>
 </html>
