@@ -3,7 +3,7 @@
    display: flex;
 }
 .word{
-    margin-left: 200px;
+    margin-left: 350px;
     font-weight: bold;
     color: black;
     font-size: medium;
@@ -18,42 +18,73 @@
 
 .whole{
     background-color: #5D78A1;
-    opacity: 0.8;
-    background-image: url(images/books-5937823_960_720.webp);
-    background-position: left;
-   
-}
-.adm button{
-    border-radius: 10px;
-    height: 10vh;
-    width: 60vh;
-    background-color: #E0FFFF;
-}
-
-.Book button{
-    border-radius: 10px;
-    height: 10vh;
-    width: 60vh;
-    background-color: #E0FFFF;
-
-   
-}
-
-.serial button{
-    border-radius: 10px;
-    height: 10vh;
-    width: 60vh;
-    background-color: #E0FFFF;
     
+   
+     }
+
+   
+   
+
+#adm{
+    height: 8vh;
+    width:400px;
+    background-color: #5D78A1;
+    border-radius: 20px;
+    border: 2px solid bisque;
+    margin-left: 250px;
+
+}
+#book{
+    height: 8vh;
+    width:400px;
+    background-color: #5D78A1;
+    border-radius: 20px;
+    border: 2px solid bisque;
+    margin-left: 250px;
+
 }
 
-.date button{
-    border-radius: 10px;
-    height: 10vh;
-    width: 60vh;
-    background-color: #E0FFFF;
+#serial, #date{
+    height: 8vh;
+    width:400px;
+    background-color: #5D78A1;
+    border-radius: 20px;
+    border: 2px solid bisque;
+    margin-left: 250px;
+   
+     }
+   
+
+
+
+.date{
+    
+        height: 8vh;
+        width:400px;
+        background-color: #5D78A1;
+       
+       
+        
+        
+        
+        
 
 }
+
+/* #date{
+    margin-left: 250px;
+} */
+
+form h3{
+    margin-left: 250px;
+}
+
+
+   
+
+
+
+
 
 .last button{
     border-radius: 10px;
@@ -61,15 +92,38 @@
     margin-top: 90px;
     height:7vh;
     width: 30vh;
-    margin-left: 70px;
+    margin-left: 100px;
     font-weight: bolder;
+   
     
 }
 .ls{
     display: flex;
 }
 
+.all{
+    display: flex;
+    justify-content: space-around;
     
+}
+
+.last{
+    margin-top: 100px;
+    margin-left: 30px;
+    
+}
+
+.pic1{
+    background-position: 100%;
+    margin-left: 50px;
+
+}
+    
+
+
+
+    
+
 
 
 
