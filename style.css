@@ -36,3 +36,13 @@ body {
   color: #FFFFFF;
 
 }
+
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 132px;
+  left: 20px;
+  top: 27px;
+
+  background: url(BOOKS.png);
+}
