@@ -10,18 +10,28 @@
     
 
 }
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .word h3{
     
     font-style: italic;
 }
-
+body{
+    color: white;
+    background-image: url("images/books-5937823_960_720.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .whole{
     background-color: #5D78A1;
-    /* opacity: 0.8; */
-    /* background-image: url("images/books-5937823_960_720.webp"); */
-    z-index: -2;
+    opacity: 0.8;
     width: 100%;
+    filter: brightness(30%);
+    filter: contrast(30%);
+    filter: opacity(100%);
 }
 .adm button{
     border-radius: 10px;
