@@ -1,21 +1,32 @@
 *{
     background-color:#5D78A1;
-    
-
+}
+#top_text{
+   text-align: center;
+   color: white;
+   font-weight: bolder;
+   font-size: x-large;
+}
+#top_text h5{
+    margin-top: -1%;
+}
+.top_image{
+    margin-top: -10%;
 }
 .details>p{
     color: white;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     font-weight: bold;
     font-size: x-large;
 }
 .details{
     display: flex;
     flex-direction: column;
-    margin-left: 25%;
-    padding: 15%;
+    margin-left: 35%;
+    padding: 5%;
+    margin-top: -7%;
     width: 20%;
-    border: 2px solid black;
+  
 }
 .details>input{
     border: 2px solid black;
@@ -25,11 +36,12 @@
 }
 .create_button{
     margin-left: 41%;
-    margin-top: -170px;
-
+    margin-top: -50px;
 }
 .create_button button{
-    border: 2px solid black;
+    font-size: x-large;
+    
+
 }
 #create{
     color: black;
