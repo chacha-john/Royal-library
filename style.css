@@ -62,3 +62,20 @@ body {
 
   color: #FFFFFF;
 }
+
+#password {
+  position: absolute;
+  width: 127px;
+  height: 28px;
+  left: 202px;
+  top: 350px;
+
+  font-family: roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+
+}
