@@ -9,68 +9,40 @@
 </head>
 <body>
     <div class="whole">
-   <div class="pics">
-       <div class ="logo">
-           <img src="images/BOOKS.png" style="height: 20vh; width: 20vh;">
+    <!-- style="background-image: url('images/books-5937823_960_720.webp'); filter: contrast(30%); filter: brightness(30%);" -->
+        <div class="pics">
+            <div class ="logo">
+                <img src="images/BOOKS.png" style="height: 20vh; width: 20vh;">
+            </div>
+            <div class="word">
+                <h2>Royal Library </h2>
+                <p>Opening the door to knowledge </p>
+            </div>
         </div>
-
-           
- 
-        
-
-        <div class="word">
-            <h2>Royal Library </h2> 
-            <p>Opening the door to knowledge </p>
-        </div>
-
+        <form name="borrowBooks">
+            <div class="labels">
+                <h3>Admission Number *</h3>
+                <input type="text" name="adm" id="admNumber" required>
+            </div>
+            <div class="label1">
+                <h3>Name of the book *</h3>
+                <input type="text" name="bk" id="nameBook" required>
+            </div>
+            <div class="label2">
+                <h3>Serial Number *</h3>
+                <input type="text" name="serial" id="bookSerial" required>
+            </div>
+            <div class="label3">
+                <h3>Date *</h3>
+                <input type="date" name="dte" id="dateBorrowed" required>
+            </div>
+            <div class="blue">
+                <input type="submit" value="Submit" id="sub">
+            </div>
+        </form>
     </div>
-
-    <div class="all">
-        <form>
-    
-    
-
-    <div class="adm">
-        <h3>Admission Number *</h3>
-        <input type="admission" id="adm" name="Admission Number" value="Enter adm">
-
-    </div>
-
-    <div class="Book">
-        <h3>Book Name *</h3>
-        <input type="Book" id="book" name="Book Name" value="Book Name">
-
-
-    </div>
-
-    <div class="serial">
-        <h3>Serial Number *</h3>
-        <input type="Serial" id="serial" name="Serial number" value="Serial Number">
-
-    </div>
-
-    <div class="ls">
-
-    <div class="date">
-        <h3>Date Borrowed *</h3>
-        <input type="date" id="date" name="Date" value="Date">
-
-
-    </div>
-
-    <div class="last">
-        <button>Submit</button>
-    </div>
-</div>
-
-</form>
-
-        <div class="pic1">
-            <img src="images/book1.png " style="height: 100vh; width: 100vh;">
-    
-        </div>
-    </div>
-    
+</body>
+</html>
 
     
 
@@ -97,12 +69,3 @@
 
 
    
-</div>
-
-        
-
-
-  
-    
-</body>
-</html>
