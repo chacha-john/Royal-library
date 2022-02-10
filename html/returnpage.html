@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royal Library</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/returnpage.css">
 </head>
 
 <body>
@@ -14,7 +14,8 @@
         <!-- style="background-image: url('images/books-5937823_960_720.webp'); filter: contrast(30%); filter: brightness(30%);" -->
         <div class="pics">
             <div class="logo">
-                <img src="images/BOOKS.png" style="height: 20vh; width: 20vh;">
+                <img src="/images/BOOKS.png" style="height: 20vh; width: 20vh;">
+                <a href="dashboard.html">HOME</a>
             </div>
             <div class="word">
                 <h2>Royal Library </h2>
@@ -35,7 +36,8 @@
                 <input type="text" id="AdmissionNo" placeholder="Admission Number"><br>
                 <label for="BookName" id="ad">Book Name*</label><br>
                 <input type="text" id="BookName" placeholder="Enter BookName"><br>
-                <input type="submit" value="Submit" id="submit">
+                <input type="submit" value="Submit" id="submit" onclick="returnBook()">
+                
                 <!-- <div>
                     <button id="button">Return</button>
 
@@ -44,6 +46,7 @@
             </form>
             
         </div>
+        
         
         <!-- <div class="lastimg">
                 <img src="images/book4.jpg" style="height: 140vh; width: 110vh;">
@@ -73,8 +76,11 @@
       
     </div>
     <div class="lastimg">
-        <img src="images/book4.jpg">
+        <img src="/images/book4.jpg">
     </div>  
+    <script src="/js/returnpage.js"></script>
+
+
 </body>
 
 </html>

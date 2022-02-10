@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royal Library</title>
-    <link rel="stylesheet" href="bookborrow.css">
+    <link rel="stylesheet" href="/css/bookborrow.css">
 </head>
 <body>
     <div class="whole">
     <!-- style="background-image: url('images/books-5937823_960_720.webp'); filter: contrast(30%); filter: brightness(30%);" -->
         <div class="pics">
             <div class ="logo">
-                <img src="images/BOOKS.png">
+                <img src="/images/BOOKS.png">
+                <a href="dashboard.html">HOME</a>
             </div>
             <div class="word">
                 <h2>Royal Library </h2>
@@ -38,17 +39,19 @@
                 <input type="date" name="dte" id="dateBorrowed" required>
             </div>
             <div class="blue">
-                <input type="submit" value="Submit" id="sub">
+                <input type="submit" value="Submit" id="sub" onclick="borrowBook()">
            </div>
+           
         </div>
 
             <div class="sidepic">
-                <img src="images/pexels-element-digital-1370298.jpg" style="height: 90vh; width: 90vh;">
+                <img src="/images/library-1147815_960_720.jpg" style="height: 90vh; width: 90vh;">
 
             </div>
         </form>
-        <a href="#">LANDINGPAGE</a>
+        
     </div>
+    <script src="/js/bookborrow.js"></script> 
 </body>
 </html>
 
