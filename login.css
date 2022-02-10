@@ -1,0 +1,139 @@
+body {
+  background-color: #5D78A1;
+}
+
+.top {
+  position: absolute;
+  width: 547px;
+  height: 56px;
+  left: 250px;
+  top: 50px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.top2 {
+  position: absolute;
+  width: 345px;
+  height: 42px;
+  left: 355px;
+  top: 126px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #FFFFFF;
+
+}
+
+.logo {
+  position: absolute;
+  width: 145px;
+  height: 132px;
+  left: 20px;
+  top: 27px;
+
+  background: url(BOOKS.png);
+}
+
+#name {
+  position: absolute;
+  width: 126px;
+  height: 24px;
+  left: 202px;
+  top: 240px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+}
+
+#password {
+  position: absolute;
+  width: 127px;
+  height: 28px;
+  left: 202px;
+  top: 350px;
+
+  font-family: roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+
+  color: #FFFFFF;
+
+}
+
+.option {
+  position: absolute;
+  width: 359px;
+  height: 21px;
+  left: 356px;
+  top: 511px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+
+}
+
+.username {
+  position: absolute;
+  width: 426px;
+  height: 54px;
+  left: 150px;
+  top: 15px;
+  
+  background: #E0FFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  border: none;
+}
+
+.pass {
+  position: absolute;
+width: 426px;
+height: 54px;
+left: 150px;
+top: 15px;
+
+background: #E0FFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+border: none;
+}
+
+#btn {
+  position: absolute;
+  width: 166px;
+  height: 53px;
+  left: 485px;
+  top: 460px;
+  content: Login;
+
+  background: #E0FFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  text-align: center;
+  font-family: roboto;
+  border:none ;
+}
