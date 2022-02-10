@@ -1,125 +1,124 @@
-
 .pics{
-   display: flex;
-}
-.word{
-    margin-left: 350px;
-    font-weight: bold;
-    color: black;
-    font-size: medium;
-    
-
-}
-
-.word h3{
-    
-    font-style: italic;
-}
-
-.whole{
-    background-color: #5D78A1;
-    
-   
-     }
-
-   
-   
-
-#adm{
-    height: 8vh;
-    width:400px;
-    background-color: #5D78A1;
-    border-radius: 20px;
-    border: 2px solid bisque;
-    margin-left: 250px;
-
-}
-#book{
-    height: 8vh;
-    width:400px;
-    background-color: #5D78A1;
-    border-radius: 20px;
-    border: 2px solid bisque;
-    margin-left: 250px;
-
-}
-
-#serial, #date{
-    height: 8vh;
-    width:400px;
-    background-color: #5D78A1;
-    border-radius: 20px;
-    border: 2px solid bisque;
-    margin-left: 250px;
-   
-     }
-   
-
-
-
-.date{
-    
-        height: 8vh;
-        width:400px;
-        background-color: #5D78A1;
-       
-       
-        
-        
-        
-        
-
-}
-
-/* #date{
-    margin-left: 250px;
-} */
-
-form h3{
-    margin-left: 250px;
-}
-
-
-   
-
-
-
-
-
-.last button{
-    border-radius: 10px;
-    background-color: #5D78A1;
-    margin-top: 90px;
-    height:7vh;
-    width: 30vh;
-    margin-left: 100px;
-    font-weight: bolder;
-   
-    
-}
-.ls{
     display: flex;
-}
-
-.all{
-    display: flex;
-    justify-content: space-around;
+ }
+ .word{
+     margin-left: 200px;
+     font-weight: bold;
+     color: black;
+     font-size: medium;
+ }
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ .word h2{
+     font-style: italic;
     
+ }
+ .word{
+     
+ }
+ body{
+     color: white;
+     background-image: url("images/books-5937823_960_720.webp");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+ .whole{
+     background-color: #5D78A1;
+     opacity: 0.8;
+     width: 100%;
+     filter: brightness(30%);
+     filter: contrast(30%);
+     filter: opacity(100%);
+     height: 900px;
+ }
+ .adm button{
+     border-radius: 10px;
+     height: 10vh;
+     width: 60vh;
+     background-color: #E0FFFF;
+ }
+ .Book button{
+     border-radius: 10px;
+     height: 10vh;
+     width: 60vh;
+     background-color: #E0FFFF;
+ }
+ .serial button{
+     border-radius: 10px;
+     height: 10vh;
+     width: 60vh;
+     background-color: #E0FFFF;
+ }
+ .date button{
+     border-radius: 10px;
+     height: 10vh;
+     width: 60vh;
+     background-color: #E0FFFF;
+ }
+ .last button{
+     border-radius: 10px;
+     background-color: #5D78A1;
+     margin-top: 90px;
+     height:7vh;
+     width: 30vh;
+     margin-left: 70px;
+     font-weight: bolder;
+ }
+ .ls{
+     display: flex;
+ }
+ form h3{
+     color: black;
+ }
+ #admNumber{
+     border-radius: 20px;
+     height: 50px;
+     width: 400px;
+     border: 2px solid beige;
+ }
+ #nameBook{
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    border: 2px solid beige;
+    }
+#bookSerial{
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    border: 2px solid beige;
+}  
+#dateBorrowed{
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    border: 2px solid beige;
+}  
+#sub{
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    border: 2px solid beige;
 }
-
-.last{
-    margin-top: 100px;
-    margin-left: 30px;
-    
+.blue{
+    margin-bottom: 60px;
+    margin-left: 500px;
 }
-
-.pic1{
-    background-position: 100%;
-    margin-left: 50px;
-
+.label1{
+    margin-top: 30px;
 }
-    
-
+.label2{
+    margin-top: 30px;
+}
+.label3{
+    margin-top: 30px;
+}
+.blue{
+    margin-top: 30px;
+}
 
 
     
