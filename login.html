@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link rel="stylesheet" href="login.css">
+  <title>Royal Library</title>
+</head>
+<img class="logo" src="images/BOOKS.png" alt="logo">
+<body>
+  <div class="top">    
+    <p>Welcome to Royal Library</p>
+  </div>
+  
+  <div class="top2">
+    <p>Let's Give You a Read</p>
+  </div>
+  
+  <form id="credentials">
+    <div id="name">
+      <p>USERNAME</p> 
+      <input type="text" class="username" id="name1" placeholder="Enter Username" required>
+    </div>
+  
+    <div id="password">
+      <p>PASSWORD</p>
+      <input type="password" class="pass" id="password1" placeholder="Enter Password" required>
+    </div>
+    <input type="submit" value="LOGIN" id="btn" onclick="validate()" > 
+  </form>
+  
+
+  <div class="option">
+    <p>Dont have an account? Click <a href="https://www.youtube.com/watch?v=IKvFz-IlB5k">here</a> to sign up.</p>
+  </div>
+
+  
+
+</div>
+<script src="login.js"></script>
+</body>
+</html>
