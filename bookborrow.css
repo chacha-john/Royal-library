@@ -1,0 +1,156 @@
+.pics{
+    display: flex;
+ }
+ .word{
+     margin-left: 200px;
+     font-weight: bold;
+     color: black;
+     font-size: medium;
+ }
+ *{
+    background-color: #5D78A1;
+ }
+ .word h2{
+     font-style: italic;
+    
+ }
+ .word{
+     margin-left: 25%;
+     color: white;
+     
+ }
+ body{
+     color: white;
+    
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100vh;
+ }
+ .whole{
+     
+     
+     width: 100%;
+     
+     
+     
+ }
+ .adm button{
+     border-radius: 10px;
+     height: 10vh;
+     width: 60vh;
+     background-color: #E0FFFF;
+ }
+ .Book button{
+     border-radius: 10px;
+     height: 10vh;
+     width: 60vh;
+     background-color: #E0FFFF;
+ }
+ .serial button{
+     border-radius: 10px;
+     height: 10vh;
+     width: 60vh;
+     background-color: #E0FFFF;
+ }
+ .date button{
+     border-radius: 10px;
+     height: 10vh;
+     width: 60vh;
+     background-color: #E0FFFF;
+ }
+ .last button{
+     border-radius: 10px;
+     background-color: #5D78A1;
+     margin-top: 90px;
+     height:7vh;
+     width: 30vh;
+     margin-left: 70px;
+     font-weight: bolder;
+ }
+ .ls{
+     display: flex;
+ }
+ form h3{
+     color: white;
+ }
+ #admNumber{
+     border-radius: 20px;
+     height: 50px;
+     width: 400px;
+     border: 2px solid beige;
+     margin-top: 1%;
+ }
+ #nameBook{
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    border: 2px solid beige;
+    margin-top: 1%;
+    }
+#bookSerial{
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    border: 2px solid beige;
+    margin-top: 1%;
+}  
+#dateBorrowed{
+    border-radius: 20px;
+    height: 50px;
+    width: 400px;
+    border: 2px solid beige;
+    margin-top: 1%;
+}  
+#sub{
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    border: 2px solid beige;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+  
+       
+}
+.blue{
+    margin-bottom: 60px;
+    margin-left: 500px;
+}
+.label1{
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.label2{
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.label3{
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.blue{
+    margin-top: 30px;
+     
+    
+}
+.labels{
+    margin-left: 30%;
+}
+.logo img{
+    height: 70px;
+    width: 80px;
+    
+
+}
+form{
+    display: flex;
+}
+
+
+
+    
+
+
+
+
+
