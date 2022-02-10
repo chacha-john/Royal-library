@@ -1,0 +1,231 @@
+*{
+    background-color:#5D78A1;
+}
+/* body{ */
+   /* background-image: url("images/books-5937823_960_720.webp");*/
+    /* background-repeat: no-repeat;
+    background-size: cover;
+} */
+body{
+    color: white;
+    display: flex;
+}
+.whole{
+    width: 70%;
+}
+.row-two{
+    display: flex;
+    width: 100%;
+}
+.lastimg{
+    width: 30%;
+}
+.lastimg img{
+    width: 100%;
+}
+.pics{
+   display: flex;
+}
+.word{
+    width: 70%;
+    text-align: center;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    /* padding-left: 25%; */
+}
+#submit{
+    background-color: #E0FFFF;
+    width: 70%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+}
+input{
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 5%;
+    border: transparent;
+    background-color: #E0FFFF;
+}
+/* .word{
+    margin-left: 200px;
+    font-weight: bold;
+    color: black;
+    font-size: medium;
+}
+.word h2{
+    font-style: italic;
+    color: black;
+    font-weight: bold;
+}
+.whole{
+    background-color: #5D78A1;
+    opacity: 0.8;
+    width: 100%;
+    filter: brightness(30%);
+    filter: contrast(30%);
+    filter: opacity(100%);
+    height: 800px;
+}
+#searchbar{
+    margin-left: 20%;
+    height: 35px;
+    width: 400px;
+    background-color:rgb(224,255,255);
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+
+}
+#AdmissionNo{
+    height: 40px;
+    width: 350px;
+    background-color:rgb(224,255,255);
+    border-radius: 15px;
+    margin-top: 20px;
+    border: none;
+    margin-left: 20%;
+    
+
+}
+#BookName{
+    height: 40px;
+    width: 350px;
+    background-color:rgb(224,255,255);
+    border-radius: 15px;
+    margin-top: 40px;
+    border: none;
+    margin-left: 20%;
+
+}
+#button{
+     margin-left:70px;
+     border: none;
+     color:black;
+     background-color:#C7E3EB;
+     height: 40px;
+     width: 200px;
+     border-radius: 15px;
+    margin-left: 20%;
+     
+}
+#ad{
+    margin-left: 20%;
+    color: black;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+#searchbar{
+    margin-left: 20%;
+    height: 35px;
+    width: 400px;
+    background-color:rgb(224,255,255);
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+
+
+}
+#searchbutton{
+     margin-left:0px;
+     border: none;
+     color:black;
+     background-color:#C7E3EB;
+     height: 35px;
+     width: 30px;
+     border-radius: 5px;
+}
+.sec1{
+    display: flex;
+    margin-left: 40px;
+} */
+
+
+/*
+.image1{
+    margin-left:30px;
+}
+.heading{
+    margin-left: 470px;
+    margin-top: -100px;
+    color: white;
+    font-style: normal;
+    text-shadow: 0px 4px 4px;
+    font-family: Ruluko;
+
+
+    
+}
+
+#book1{
+    background-position: 100%;
+    margin-left: 350px;
+    margin-top: -70px;
+    margin-right: -10%;
+    border: 2px solid black;
+    margin-bottom: 14%;
+    height: 400px;    
+
+}
+
+#p1{
+   color: white;
+   font-style: normal;
+
+}
+#searchbar{
+    margin-left: 20%;
+    height: 35px;
+    width: 400px;
+    background-color:rgb(224,255,255);
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+
+
+}*/
+/*
+.details{
+    margin-left:70px;
+    margin-top: -48%;
+    border: 2px solid black;
+    margin-right: 50%;
+    
+}
+
+#AdmissionNo{
+    height: 40px;
+    width: 350px;
+    background-color:rgb(224,255,255);
+    border-radius: 15px;
+     margin-top: 20px;
+     border: none;
+
+}
+#BookName{
+    height: 40px;
+    width: 350px;
+    background-color:rgb(224,255,255);
+    border-radius: 15px;
+    margin-top: 40px;
+    border: none;
+
+}
+#button{
+     margin-left:70px;
+     border: none;
+     color:black;
+     background-color:#C7E3EB;
+     height: 40px;
+     width: 200px;
+     border-radius: 15px;
+     
+}
+*/
