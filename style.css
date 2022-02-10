@@ -10,8 +10,14 @@
 #top_text h5{
     margin-top: -1%;
 }
-.top_image{
-    margin-top: -10%;
+#top_image{
+   
+    width: 15%;
+    margin-top: -8%;
+    padding-left: 1%;
+}
+#top_image img{
+    width: 60%;
 }
 .details>p{
     color: white;
@@ -24,32 +30,31 @@
     flex-direction: column;
     margin-left: 35%;
     padding: 5%;
-    margin-top: -7%;
-    width: 20%;
-  
+    margin-top: -1%; 
+    width: 20%;  
 }
 .details>input{
     border: 2px solid black;
     padding: 5%;
     border-radius: 10px;
     background-color: #E0FFFF;
+    border: none;
 }
 .create_button{
-    margin-left: 41%;
+    margin-left: 43%;
     margin-top: -50px;
+    font-size: xx-large;
+    width: 50%;
 }
-.create_button button{
-    font-size: x-large;
-    
 
-}
 #create{
     color: black;
     background-color: #E0FFFF;
+    border: none;
     
     border-radius: 10px;
     font-weight: bold;
-    font: x-large;
+    font-size: large;
     width: 30%;
     height: 70px;
 }
